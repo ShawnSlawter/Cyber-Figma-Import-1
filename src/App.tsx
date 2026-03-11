@@ -7,7 +7,7 @@ export const App = (): JSX.Element => {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Navigate to="/infrastructure" replace />} />
+        <Route path="/" element={<Navigate to="/secureops" replace />} />
         <Route path="/cybersecurity" element={<Cybersecurity />} />
         <Route path="/infrastructure" element={<Infrastructure />} />
         <Route path="/secureops" element={<SecureOps />} />
